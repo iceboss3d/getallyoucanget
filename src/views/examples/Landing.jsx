@@ -92,7 +92,7 @@ class Landing extends React.Component {
                       </h1>
                       <img style={this.state.deviceWidth <= 991 ? customStyle.mobileShow : customStyle.mobileHide} src={gaycg} alt="Get All You Can Get" />
                       <p className="lead text-white">
-                        Africa's Premier Christian Financial Advisor, Solomon King, arms you with financial principles that would transform principles that would transform your finances in 90 days or less.
+                        In this great, easy-to-grab money manual, Africa’s Premier financial Adviser, Solomon King has laid out the financial facts of the faith. God wants you to be successful, and in this book, The Money King will show you how.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -279,15 +279,15 @@ class Landing extends React.Component {
                       <i className="fa fa-info" />
                     </div>*/}
                     <p>
-                      Bills and debts sadly, are a reality of everyday for so many good-intentioned people. Majority of folks are weighed down by their financial troubles. Very many Christians are broke.
+                      Too many Christians are broke.
                     </p>
-                    {/*<p>
-                      But, God wants the best for you in every area of your life, and money is no exception. He doesn’t want you struggling or worrying about money and finances. God wants you to have all that you want and need.
-                    </p>*/}
                     <p>
-                      In this simply-written, easy-to-read yet powerful book, Africa’s Premier Christian Financial Advisor, Solomon King, arms you with financial principles that would transform your finances in 90 days or less. In Get All You Can Get, you’d understand
+                      It appears as though many Christians have accepted debts and overwhelming bills as a reality of their lives, and this should not be so. The mathematics of wealth is simple; God owns the world and everything in it, and he does not withhold them from us. Therefore, we have access to money and luxury. Christians simply need to learn how to take it.
                     </p>
-                    <ul className="list-unstyled mt-5">
+                    <p>
+                      God has given us so many principles for wealth generation, preservation and acceleration, and Solomon King exposes and explains all of them in this revolutionary book.
+                    </p>
+                    {/* <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
@@ -369,7 +369,7 @@ class Landing extends React.Component {
                           </div>
                         </div>
                       </li>
-                    </ul>
+                    </ul>*/}
                     <Button className="btn-icon btn-3" color="primary" type="button">
                       <span className="btn-inner--icon">
                         <i className="fa fa-shopping-cart" />
@@ -564,8 +564,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
               </Container>*/}
-            {/* SVG separator */}
-            {/*<div className="separator separator-bottom separator-skew zindex-100">
+          {/* SVG separator */}
+          {/*<div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -596,22 +596,13 @@ class Landing extends React.Component {
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <p>
-                      According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                      Solomon King is a wealth enthusiast, who believes that we all can leave a fun, financially-free life with the word of God as our Guide. He has completed 6 executive education certifications in Accounting Analytics, Personal Finance, Advanced Strategy, Negotiations, Leadership and Entrepreneurship from top institutions including Lagos Business School, University of California, Irvine, University of Pennsylvania-The Wharton School and Ludwig-Maximilians Universität München.
                     </p>
                     <p>
-                      According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                      Over the years, he has toured churches and secular institutions, setting the facts straight on finances, and guiding men and women to a life of wealth and success.
                     </p>
                     <p>
-                      According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                      Solomon King is also the CEO of Brass and Books, a firm that focuses on investments, and gives individuals of every class and race the opportunity to live a life of financial freedom.
                     </p>
                   </div>
                 </Col>
@@ -663,7 +654,7 @@ class Landing extends React.Component {
                   </div>
                   <h5 className="text-white mt-3">Entrepreneurs</h5>
                   <p className="text-white mt-3">
-                    Those striving to build a business or ministry without sidelining their personal health, goals, and relationships.
+                    This is for you if you have been giving an idea that can change thingsin your niche. This book will teach you how to make your idea earn for you, everyday, starting today.
                   </p>
                 </Col>
                 <Col lg="4">
@@ -672,7 +663,7 @@ class Landing extends React.Component {
                   </div>
                   <h5 className="text-white mt-3">Executives and Managers</h5>
                   <p className="text-white mt-3">
-                    Men and women who want to succeed at work and maximize their teams while being fully present in every other aspect of their lives as well.
+                    You do not have to work like a mule to be successful at a top position. As you read Get All You Can Get, you will learn how to maximize your team, live beyond your job, and experience heightened success.
                   </p>
                 </Col>
                 <Col lg="4">
@@ -681,34 +672,7 @@ class Landing extends React.Component {
                   </div>
                   <h5 className="text-white mt-3">College Students</h5>
                   <p className="text-white mt-3">
-                    Including graduates and young professionals who want to get clear about their priorities as they start to make their mark on the world.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Entrepreneurs</h5>
-                  <p className="text-white mt-3">
-                    Those striving to build a business or ministry without sidelining their personal health, goals, and relationships.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Executives and Managers</h5>
-                  <p className="text-white mt-3">
-                    Men and women who want to succeed at work and maximize their teams while being fully present in every other aspect of their lives as well.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">College Students</h5>
-                  <p className="text-white mt-3">
-                    Including graduates and young professionals who want to get clear about their priorities as they start to make their mark on the world.
+                    The world is huge and overwhelming when you have just started to really experience it. This book is a guide that will take you successfully through the tunnels and over all the hurdles. 
                   </p>
                 </Col>
               </Row>

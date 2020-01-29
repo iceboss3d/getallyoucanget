@@ -19,7 +19,7 @@ class Download extends React.Component {
                   </span>
     </h2>*/}
                 <p className="lead">
-                  One final Call to Action. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla eius ducimus eaque mollitia consectetur id sit eos, quidem ullam laborum pariatur voluptatem. Deserunt consectetur beatae et quia veniam illum.
+                  You don’t struggle to make ends meet. God is all-knowing, and he has shown you how to pull the ends tightly together. You can succeed. You can enjoy a debt-free life. It is possible to be beyond “just managing. Buy now, and start your journey of freedom.
                 </p>
                 <div className="btn-wrapper">
                   <Button
