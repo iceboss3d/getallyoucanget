@@ -73,6 +73,9 @@ class Landing extends React.Component {
           <link rel='canonical' href="https://books.solomonking.info/get-all-you-can-get" />
           <meta name="robots" content="index, follow" />
           <meta property="og:title" content="Get All You Can Get" />
+          <meta property="og:type" content="book" />
+          <meta property="book:author" content="Solomon King" />
+          <meta property="book:tag" content="Christian, Finance, Personal Development" />
           <meta property="og:url" content="https://books.solomonking.info/get-all-you-can-get" />
           <meta property="og:image" content={gaycg} />
           <meta property="og:description" content="In this great, easy-to-grab money manual, Africa’s Premier financial Adviser, Solomon King has laid out the financial facts of the faith. God wants you to be successful, and in this book, The Money King will show you how." />
