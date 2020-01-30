@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 
 import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -12,28 +14,47 @@ import Login from "views/examples/Login.jsx";
 import Profile from "views/examples/Profile.jsx";
 import Register from "views/examples/Register.jsx";
 
+const history = createBrowserHistory();
+
+ReactGA.initialize("G-7X8N2Y50L2");
+
+history.listen(location => {
+  ReactGA.set({page: location.pathname})
+  ReactGA.pageview(location.pathname)
+});
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/get-all-you-can-get" exact render={props => <Landing {...props} />} />
-      <Route path="/" exact render={props => <Index {...props} />} />
       <Route
-        path="/landing-page"
+        path='/get-all-you-can-get'
+        history={history}
+        exact
+        render={props => <Landing {...props} />}
+      />
+      <Route
+        path='/'
+        history={history}
         exact
         render={props => <Index {...props} />}
       />
-      <Route path="/login-page" exact render={props => <Login {...props} />} />
       <Route
-        path="/profile-page"
+        path='/landing-page'
+        exact
+        render={props => <Index {...props} />}
+      />
+      <Route path='/login-page' exact render={props => <Login {...props} />} />
+      <Route
+        path='/profile-page'
         exact
         render={props => <Profile {...props} />}
       />
       <Route
-        path="/register-page"
+        path='/register-page'
         exact
         render={props => <Register {...props} />}
       />
-      <Redirect to="/" />
+      <Redirect to='/' />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

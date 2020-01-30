@@ -10,16 +10,16 @@ export default function Index() {
   return (
     <div>
       <Helmet>
-        <title>Solomon King Books</title>
+        <title>Books by Solomon King</title>
         <meta name="description" content="Books authored by Solomon King; Teacher, Author and Financial Advisor. Available on Amazon, iBooks, Playbooks, Kobo, Okada"/>
         <link rel='canonical' href="https://books.solomonking.info"/>
         <meta name="robots" content="index, follow"/>
-        <meta property="og:title" content="Solomon King Books"/>
+        <meta property="og:title" content="Books by Solomon King"/>
         <meta property="og:url" content="https://books.solomonking.info"/>
         <meta property="og:image" content={sking}/>
         <meta property="og:description" content="Books authored by Solomon King; Teacher, Author and Financial Advisor. Available on Amazon, iBooks, Playbooks, Kobo, Okada" />
         <meta property="twitter:site" content="@solomonpking" />
-        <meta property="twitter:title" content="Solomon King Books" />
+        <meta property="twitter:title" content="Books by Solomon King" />
         <meta property="twitter:image" content={sking} />
         <meta property="twitter:description" content="Books authored by Solomon King; Teacher, Author and Financial Advisor. Available on Amazon, iBooks, Playbooks, Kobo, Okada" />
       </Helmet>
