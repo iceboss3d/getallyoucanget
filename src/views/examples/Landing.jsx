@@ -29,6 +29,7 @@ import Download from "../IndexSections/Download.jsx";
 // Image Imports
 import gaycg from "../../assets/img/theme/gaycg1.png"
 import sking from "../../assets/img/theme/solomon-king1.png"
+import Helmet from 'react-helmet';
 
 class Landing extends React.Component {
   state = {
@@ -66,6 +67,20 @@ class Landing extends React.Component {
     }
     return (
       <>
+        <Helmet>
+          <title>Get All You Can Get</title>
+          <meta name="description" content="In this great, easy-to-grab money manual, Africa’s Premier financial Adviser, Solomon King has laid out the financial facts of the faith. God wants you to be successful, and in this book, The Money King will show you how." />
+          <link rel='canonical' href="https://books.solomonking.info/get-all-you-can-get" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:title" content="Get All You Can Get" />
+          <meta property="og:url" content="https://books.solomonking.info/get-all-you-can-get" />
+          <meta property="og:image" content={gaycg} />
+          <meta property="og:description" content="In this great, easy-to-grab money manual, Africa’s Premier financial Adviser, Solomon King has laid out the financial facts of the faith. God wants you to be successful, and in this book, The Money King will show you how." />
+          <meta property="twitter:site" content="@solomonpking" />
+          <meta property="twitter:title" content="Get All You Can Get" />
+          <meta property="twitter:image" content={gaycg} />
+          <meta property="twitter:description" content="In this great, easy-to-grab money manual, Africa’s Premier financial Adviser, Solomon King has laid out the financial facts of the faith. God wants you to be successful, and in this book, The Money King will show you how." />
+        </Helmet>
         <DemoNavbar />
         <main ref="main">
           <div className="position-relative">
@@ -672,7 +687,7 @@ class Landing extends React.Component {
                   </div>
                   <h5 className="text-white mt-3">College Students</h5>
                   <p className="text-white mt-3">
-                    The world is huge and overwhelming when you have just started to really experience it. This book is a guide that will take you successfully through the tunnels and over all the hurdles. 
+                    The world is huge and overwhelming when you have just started to really experience it. This book is a guide that will take you successfully through the tunnels and over all the hurdles.
                   </p>
                 </Col>
               </Row>
